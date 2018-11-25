@@ -1,0 +1,55 @@
+/* 
+@keyframes animate {
+    from { color: red}
+    to { color: paleturquoise}
+    
+}
+
+.message-enter,.message-apper{
+    opacity: 0;
+    animation: animate 1s;
+    transition: all 1000ms ease-out;
+}
+.message-enter-active,.message-apper-active{
+    opacity: 1;
+}
+.message-enter-done{
+    opacity: 1;
+    color: paleturquoise
+}
+.message-exit{
+    opacity: 1;
+}
+.message-exit-active{
+    opacity: 0;
+}
+.message-exit-done{
+    opacity: 0;
+} */
+
+.container {
+    max-width: 24rem;
+    margin: 1rem auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+  
+  .remove-btn {
+    margin-right: 0.5rem;
+  }
+  
+  .fade-enter {
+    opacity: 0.01;
+  }
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  .fade-exit {
+    opacity: 1;
+  }
+  .fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 500ms ease-in;
+  }

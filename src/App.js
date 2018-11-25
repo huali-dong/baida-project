@@ -13,11 +13,16 @@ import React, { Component } from 'react';
 // import Routers from "./Router/index"
 // import Routers from "./Router/approuter"
 // import Style from "./styledComponent/getstart"
-import Redux from "./Redux"
+// import Redux from "./Redux";
+// import ReduxList from "./Redux"
+// import Transition from "./transition"
+// import TransitionGroup from "./transition/transition-group"
+import ReduxMiddleWare from "./ReduxMiddileWare/count"
 class App extends Component {
   render() {
     return (
       <div className="App">
+      {/* <Todolist/> */}
           {/* <FormText/> */}
           {/* <Communication/> */}
           {/* <Context/> */}
@@ -29,7 +34,11 @@ class App extends Component {
           {/* <Hoc/> */}
             {/* <Routers/> */}
           {/* <Style/> */}
-          <Redux/>
+          {/* <Redux/> */}
+          {/* <ReduxList/> */}
+          {/* <Transition/> */}
+          {/* <TransitionGroup/> */}
+          <ReduxMiddleWare/>
       </div>
     );
   }
